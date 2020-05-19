@@ -34,8 +34,4 @@ class Owner
       puts "#{owner}: #{name}"
     end
   end
-
-  def dogs(owner)
-    @@pets[:dog]
-  end
 end

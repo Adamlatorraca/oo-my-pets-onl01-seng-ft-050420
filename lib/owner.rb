@@ -25,7 +25,7 @@ class Owner
     @@all = []
   end
 
-  def cats
-    cats.owner.all
+  def cats(owner)
+    owner.cats.all
   end
 end

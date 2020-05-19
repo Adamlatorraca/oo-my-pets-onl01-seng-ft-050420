@@ -29,7 +29,9 @@ class Owner
   end
 
   def cats(owner)
-    @@pets[:cat]
+    @@pets.each do |owner, name|
+      if @owner == owner
+        "#{@owner}: #{name}"
   end
 
   def dogs(owner)

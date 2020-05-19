@@ -72,4 +72,8 @@ class Owner
       dog.owner = nil
     end
   end
+
+  def list_pets
+    dog_count = @dogs.count
+    cat_count = @cats.count
 end

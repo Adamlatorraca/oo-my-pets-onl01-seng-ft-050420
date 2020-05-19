@@ -32,6 +32,7 @@ class Owner
     @@pets.each do |owner, name|
       if @owner == owner
         "#{@owner}: #{name}"
+      end
   end
 
   def dogs(owner)

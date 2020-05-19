@@ -31,6 +31,7 @@ class Owner
     cats.each do |owner|
       if owner == @owner
         puts cat.name
+        break
       end
     end
   end

@@ -28,5 +28,11 @@ class Owner
     @@all = []
   end
 
+  def cats
 
+  end
+
+  def dogs
+
+  end
 end

@@ -33,5 +33,6 @@ class Owner
     when owner == cat.owner
       puts "#{owner}: #{name}"
     end
+    end
   end
 end

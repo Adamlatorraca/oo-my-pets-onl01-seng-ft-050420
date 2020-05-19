@@ -29,10 +29,10 @@ class Owner
   end
 
   def cats
-
+    @@pets[:cat]
   end
 
   def dogs
-
+    @@pets[:dog]
   end
 end

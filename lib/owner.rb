@@ -28,11 +28,11 @@ class Owner
     @@all.clear
   end
 
-  def cats
+  def cats(owner)
     @@pets[:cat]
   end
 
-  def dogs
+  def dogs(owner)
     @@pets[:dog]
   end
 end

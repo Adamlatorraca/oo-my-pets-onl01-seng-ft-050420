@@ -7,6 +7,6 @@ class Owner
   end
 
   def say_species
-    "#{name} says he or she is a #{species}"
+    "I am a #{species}"
   end
 end

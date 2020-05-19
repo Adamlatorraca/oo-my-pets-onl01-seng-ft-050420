@@ -8,4 +8,5 @@ class Owner
 
   def say_species(name, species)
     puts "#{name} says he or she is a #{species}"
+  end
 end

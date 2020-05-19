@@ -28,9 +28,10 @@ class Owner
     @@all.clear
   end
 
-  def cats
+  def cats(owner)
     @pets[:cat].each do |name|
-    when @owner == cat.owner
+    when owner == cat.owner
+      puts "#{owner}: #{name}"
   end
 
   def dogs(owner)

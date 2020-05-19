@@ -1,7 +1,7 @@
 class Owner
   attr_reader :name
 
-  def name
-    @name = Owner.new(name)
+  def initialize(name)
+    @name = name
   end
 end

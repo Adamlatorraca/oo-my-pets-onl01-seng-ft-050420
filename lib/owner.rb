@@ -33,6 +33,7 @@ class Owner
       if @owner == owner
         "#{@owner}: #{name}"
       end
+    end
   end
 
   def dogs(owner)

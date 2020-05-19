@@ -28,7 +28,7 @@ class Owner
   end
 
   def cats
-    cats.all.each do |owner|
+    cats.each do |owner|
       if owner == @owner
         puts cat.name
       end

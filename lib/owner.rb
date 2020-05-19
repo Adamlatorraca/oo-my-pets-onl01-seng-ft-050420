@@ -1,7 +1,8 @@
 require "pry"
 
 class Owner
-  attr_reader :name, :species, :cat, :dog
+  attr_accessor :cats, :dogs
+  attr_reader :name, :species,
 
   @@all = []
 
@@ -30,9 +31,6 @@ class Owner
 
   def cats(owner)
     @pets[:cat].each do |name|
-    when owner == cat.owner
-      puts "#{owner}: #{name}"
-    end
-    end
+
   end
 end

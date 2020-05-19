@@ -26,6 +26,6 @@ class Owner
   end
 
   def cats
-    
+    @owner.cats
   end
 end

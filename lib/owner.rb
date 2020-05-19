@@ -66,4 +66,9 @@ class Owner
     cats.each do |cat|
       cat.mood = "nervous"
       cat.owner = "none"
+    end
+    dogs.each do |dog|
+      dog.mood = "nervous"
+      dog.owner = "none
+    end
 end

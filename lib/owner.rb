@@ -31,5 +31,7 @@ class Owner
     cats.all.each do |owner|
       if owner == @owner
         puts cat.name
+      end
+    end
   end
 end

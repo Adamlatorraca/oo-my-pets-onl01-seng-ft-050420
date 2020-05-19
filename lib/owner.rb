@@ -28,6 +28,8 @@ class Owner
   end
 
   def cats
-    binding.pry
+    cats.all.each do |owner|
+      if owner == @owner
+        puts cat.name
   end
 end
